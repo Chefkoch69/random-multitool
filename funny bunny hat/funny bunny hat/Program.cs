@@ -36,7 +36,7 @@ namespace funny_bunny_hat
 
             switch (command)
             {
-                case "namp":
+                case "nmap":
                     var wc = new WebClient();
                     string res = wc.DownloadString("https://api.hackertarget.com/nmap/?q=" + args[1]);
                     Console.WriteLine(res);
@@ -61,6 +61,11 @@ namespace funny_bunny_hat
                     }
                     break;
 
+                case "clear":
+                    Console.Clear();
+                    logo();
+                    break;
+
                 default:
                     if(command == "")
                     {
@@ -81,8 +86,19 @@ namespace funny_bunny_hat
 
             Console.WriteLine(@"
  >-------------------------------------<
+ |                fun                  |
+ >-------------------------------------<
+ | no fun commands so far :(           |
+ >-------------------------------------<
+ |           Network tools             |
+ >-------------------------------------<
  | nmap ( IP ) => Scans a IP with nmap |
+ >-------------------------------------<
+ |              Manage                 |
+ >-------------------------------------<
+ | clear => clears the console         |
  | update => Updates this multitool    |
+ | pre ( prefix ) => change the prefix |
  >-------------------------------------<
 ");
         }
