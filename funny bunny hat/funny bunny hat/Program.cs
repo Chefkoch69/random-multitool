@@ -47,20 +47,30 @@ namespace funny_bunny_hat
                     break;
 
                 case "update":
-                    if (File.Exists("updater.exe"))
+                    if (File.Exists("Updater.exe"))
                     {
-                        Process.Start("updater.exe");
+                        Process.Start("Updater.exe");
                         Environment.Exit(0);
                     }
                     else
                     {
                         Console.WriteLine("-> you dont have the updater installer...");
-                        Console.WriteLine("-> Installing it for you...")
+                        Console.WriteLine("-> Installing it for you...");
+                        var wcy = new WebClient();
+                        wcy.DownloadFile("https://github.com/Chefkoch69/random-multitool/raw/master/funny%20bunny%20hat/Updater/bin/Debug/Updater.exe", "Updater.exe");
                     }
                     break;
 
                 default:
-                    Console.WriteLine("-> Command " + command + " not found");
+                    if(command == "")
+                    {
+                        break;
+                    }
+                    else
+                    {
+                        Console.WriteLine("-> Command " + command + " not found");
+                    }
+                    
                     break;
 
             }
