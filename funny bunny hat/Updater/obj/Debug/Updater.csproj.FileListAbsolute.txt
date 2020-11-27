@@ -1,0 +1,7 @@
+C:\Users\simon\Desktop\random-multitool\funny bunny hat\Updater\bin\Debug\Updater.exe.config
+C:\Users\simon\Desktop\random-multitool\funny bunny hat\Updater\bin\Debug\Updater.exe
+C:\Users\simon\Desktop\random-multitool\funny bunny hat\Updater\bin\Debug\Updater.pdb
+C:\Users\simon\Desktop\random-multitool\funny bunny hat\Updater\obj\Debug\Updater.csprojAssemblyReference.cache
+C:\Users\simon\Desktop\random-multitool\funny bunny hat\Updater\obj\Debug\Updater.csproj.CoreCompileInputs.cache
+C:\Users\simon\Desktop\random-multitool\funny bunny hat\Updater\obj\Debug\Updater.exe
+C:\Users\simon\Desktop\random-multitool\funny bunny hat\Updater\obj\Debug\Updater.pdb

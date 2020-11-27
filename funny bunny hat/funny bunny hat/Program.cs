@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Net;
+using System.Diagnostics;
+using System.IO;
 
 namespace funny_bunny_hat
 {
@@ -15,7 +17,9 @@ namespace funny_bunny_hat
             logo();
             while (true)
             {
-                Console.Write("~ ");
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.Write(" root@Sinfull:-# ");
+                Console.ForegroundColor = ConsoleColor.DarkBlue;
                 var inp = Console.ReadLine();
                 handler(inp);
             }
@@ -43,7 +47,16 @@ namespace funny_bunny_hat
                     break;
 
                 case "update":
-                    
+                    if (File.Exists("updater.exe"))
+                    {
+                        Process.Start("updater.exe");
+                        Environment.Exit(0);
+                    }
+                    else
+                    {
+                        Console.WriteLine("-> you dont have the updater installer...");
+                        Console.WriteLine("-> Installing it for you...")
+                    }
                     break;
 
                 default:

@@ -5,3 +5,10 @@ C:\Users\simon\source\repos\funny bunny hat\funny bunny hat\obj\Debug\funny bunn
 C:\Users\simon\source\repos\funny bunny hat\funny bunny hat\obj\Debug\funny bunny hat.csproj.CoreCompileInputs.cache
 C:\Users\simon\source\repos\funny bunny hat\funny bunny hat\obj\Debug\funny bunny hat.exe
 C:\Users\simon\source\repos\funny bunny hat\funny bunny hat\obj\Debug\funny bunny hat.pdb
+C:\Users\simon\Desktop\random-multitool\funny bunny hat\funny bunny hat\bin\Debug\funny bunny hat.exe.config
+C:\Users\simon\Desktop\random-multitool\funny bunny hat\funny bunny hat\bin\Debug\funny bunny hat.exe
+C:\Users\simon\Desktop\random-multitool\funny bunny hat\funny bunny hat\bin\Debug\funny bunny hat.pdb
+C:\Users\simon\Desktop\random-multitool\funny bunny hat\funny bunny hat\obj\Debug\funny bunny hat.csprojAssemblyReference.cache
+C:\Users\simon\Desktop\random-multitool\funny bunny hat\funny bunny hat\obj\Debug\funny bunny hat.csproj.CoreCompileInputs.cache
+C:\Users\simon\Desktop\random-multitool\funny bunny hat\funny bunny hat\obj\Debug\funny bunny hat.exe
+C:\Users\simon\Desktop\random-multitool\funny bunny hat\funny bunny hat\obj\Debug\funny bunny hat.pdb
